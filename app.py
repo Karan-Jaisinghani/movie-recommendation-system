@@ -39,7 +39,7 @@ if st.button("Recommend"):
     for col in row1 + row2:
         if c==11:
             break
-        tile = col.container(height=300,width='stretch',border=True,horizontal=True,vertical_alignment='distribute')
+        tile = col.container(height=400,width='stretch',border=True,horizontal=True,vertical_alignment='distribute')
         tile.text(names[c])
         tile.image(posters[c])
         c += 1
