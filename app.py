@@ -30,7 +30,7 @@ def recommend(movie):
 
 
 movies_list1 = movies['title'].values
-st.title("Movie Recommender System")
+st.title(":red[Movie Recommender System]")
 option = st.selectbox(
     "Select the movie you want your recommendations based on: ",movies_list1,)
 
