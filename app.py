@@ -2,6 +2,11 @@ import streamlit as st
 import pickle
 import requests
 
+st.set_page_config(
+    page_title="Movie Recommender",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
 def fetch(movie_id):
     response = requests.get('https://api.themoviedb.org/3/movie/{}?api_key=9aba8637298cf2db574d96a33c81ebbf'.format(movie_id))
     data = response.json()
