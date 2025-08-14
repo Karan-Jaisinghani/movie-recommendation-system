@@ -41,5 +41,5 @@ if st.button("Recommend"):
             break
         tile = col.container(height=300,width='stretch',border=True,horizontal=True,vertical_alignment='distribute')
         tile.text(names[c])
-        tile.image(posters[c],use_column_width=True)
+        tile.image(posters[c])
         c += 1
