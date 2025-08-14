@@ -1,0 +1,6 @@
+[theme]
+primaryColor="#FF4B4B"                # Accent color (buttons, sliders, etc.)
+backgroundColor="#FFFFFF"             # Main background (pure white)
+secondaryBackgroundColor="#F5F5F5"    # Sidebar / widgets background (light gray)
+textColor="#000000"                    # Black text
+font="serif"                      # Clean readable font
